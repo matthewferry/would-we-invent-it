@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -20,7 +20,7 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v3
         with:
-          node_version: "lts/*"
+          node_version: lts/*
     
       - name: Install packages
         run: npm ci
