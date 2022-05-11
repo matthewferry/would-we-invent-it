@@ -9,8 +9,6 @@ const question = 'Would we invent ' + invention + ' ?';
 
 createSourceCanvas.width = srcWidth;
 createSourceCanvas.height = srcHeight;
-context = createSourceCanvas.getContext('2d');
-context.strokeStyle = '#ffffff';
 
 CanvasTextWrapper(createSourceCanvas, question, {
   font: "bold 112px Impact, sans-serif",
