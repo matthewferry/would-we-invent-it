@@ -5,7 +5,7 @@ import invention from './getInvention.js';
 const createSourceCanvas = document.createElement('canvas');
 const srcWidth = 900;
 const srcHeight = 560;
-const question = 'What if we invented ' + invention + ' ?';
+const question = 'Would we invent ' + invention + ' ?';
 
 createSourceCanvas.width = srcWidth;
 createSourceCanvas.height = srcHeight;
