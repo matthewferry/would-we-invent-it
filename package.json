@@ -1,0 +1,27 @@
+{
+  "name": "would-we-invent-it",
+  "version": "0.0.1",
+  "description": "would we invent it?",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewferry/would-we-invent-it.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthewferry/would-we-invent-it/issues"
+  },
+  "homepage": "https://github.com/matthewferry/would-we-invent-it#readme",
+  "dependencies": {
+    "canvas-text-wrapper": "^0.10.2",
+    "canvas-to-image": "^2.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  }
+}
